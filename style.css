@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(80, 73, 73);;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgb(153, 153, 153);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
