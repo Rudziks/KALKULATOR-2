@@ -8,6 +8,7 @@ body{
     grid-template-columns: auto auto auto;
     background-color: rgb(80, 73, 73);;
     padding: 10px;
+    border: solid black;
   }
   
   .grid-item {
@@ -29,6 +30,10 @@ body{
 }
 
 #all {
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
+}
+
+.btn{
+    background-color: black;
 }
