@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(0, 0, 0, 0.849)
+}
+
 .grid-container {
     display: grid;
     grid-gap: 50px;
@@ -7,9 +11,24 @@
   }
   
   .grid-item {
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(236, 231, 231);
     border: 1px solid black;
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    margin: 5px;
   }
+
+  #showScore {
+    background-color: white;
+    border:none;
+    border-bottom: solid rgb(0, 0, 0);
+    width: 99%;
+    display: block;
+    margin: 0 auto;
+}
+
+#all {
+    width: 50%;
+    margin: 0 auto;
+}
